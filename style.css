@@ -248,3 +248,23 @@ p {
       height: 40px;
   }
 }
+
+#relogio {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  display: flex; /* Usar flexbox para alinhar o ícone e o texto */
+  align-items: center; /* Centralizar verticalmente */
+  color: var(--text-color); /* Usar a variável de cor do texto */
+  background-color: var(--bg-color); /* Usar a variável de cor de fundo */
+  box-shadow: 0 2px 10px var(--shadow-color); /* Adiciona sombra para destaque */
+}
+
+#relogio i {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+  color: var(--text-color); /* Usar a variável de cor do texto para o ícone */
+}
